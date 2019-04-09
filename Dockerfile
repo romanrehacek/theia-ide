@@ -48,6 +48,7 @@ RUN apt-get update \
         ca-certificates \
         nano \
         zip \
+        unzip \
     && wget -q https://packages.sury.org/php/apt.gpg -O- | apt-key add - \
     && echo "deb https://packages.sury.org/php/ jessie main" | tee /etc/apt/sources.list.d/php.list \
     && apt-get update \
