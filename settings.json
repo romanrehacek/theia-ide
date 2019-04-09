@@ -1,0 +1,12 @@
+{
+    "application.confirmExit": "always",
+    "editor.autoIndent": true,
+    "editor.autoSave": "off",
+    "editor.minimap.enabled": true,
+    "list.openMode": "doubleClick",
+    "workspace.preserveWindow": true,
+    "workspace.supportMultiRootWorkspace": true,
+    "editor.wordWrap": "on",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+}
