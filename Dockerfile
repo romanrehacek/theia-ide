@@ -34,6 +34,7 @@ ARG USER_ID=1000
 ARG GROUP_ID=1000
 ARG TZ="Europe/Bratislava"
 ARG LOCALE="en_US.UTF-8"
+ARG GITHUB_TOKEN
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
