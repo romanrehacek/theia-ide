@@ -65,6 +65,8 @@ RUN userdel -r -f node \
     && echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers \
     && chmod g+rw /home \
     && mkdir -p /home/project \
+    && mkdir -p /home/theia/.theia \
+    && mkdir -p /home/theia/.config \
     && chown -R theia:theia /home/theia \
     && chown -R theia:theia /home/project \
     # timezone
